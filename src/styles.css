@@ -12,6 +12,8 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  color: rgb(251, 255, 255);
+  
 }
 
 div#main {
@@ -46,7 +48,7 @@ section img.background {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Arial Black";
   font-size: 7rem;
   font-weight: 400;
   line-height: 0.8;
@@ -54,16 +56,29 @@ h1 {
 }
 
 h2 {
+  font-family:  "Arial Black", "Comic Sans";
   font-size: 2rem;
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
+  color: #b500fc;
+  font-style: bold;
 }
 
 h3 {
   font-weight: 400;
   font-size: 1.25rem;
   margin: 0;
+}
+
+h4 {
+  font-family:  "Arial Black", "Comic Sans";
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+  color: #000000;
+  font-style: bold;
 }
 
 p {
@@ -90,16 +105,16 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: #343435;
 }
 
-a {
-  color: black;
+a { /*Top Home, About etc*/
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 a:hover {
-  color: #4e567e;
+  color: #222222;
 }
 
 .container {
@@ -111,12 +126,13 @@ a:hover {
 
 .container .box {
   border-radius: 10px;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(255, 0, 234);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+  background-color: #222222;
 }
 
 img.socialIcon {
